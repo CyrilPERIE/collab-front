@@ -25,9 +25,7 @@ export default function Home() {
     <div>
       {data ? (
         <div>
-          {/* Render the fetched data */}
           <h1>{data}</h1>
-          <p>{data}</p>
         </div>
       ) : (
         <p>Loading...</p>
